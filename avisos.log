@@ -25,3 +25,47 @@
 [2024-03-1021:05:48] [ INFO ] [databaseConnection:26] Se conecto a la base de datos
 [2024-03-1021:05:48] [ INFO ] [OdontologoDaoH2:53] Se cerro la conexion!
 [2024-03-1021:05:48] [ INFO ] [OdontologoDaoH2:59] Se ha creado un registro para odontologo Odontologo{id=5, matricula='null', nombre='null', apellido='null'}
+[2024-03-1113:40:46] [ INFO ] [OdontologoDaoH2:27] Estamos guardando un odontologo
+[2024-03-1113:40:47] [ INFO ] [databaseConnection:26] Se conecto a la base de datos
+[2024-03-1113:40:47] [ INFO ] [OdontologoDaoH2:53] Se cerro la conexion!
+[2024-03-1113:40:47] [ INFO ] [OdontologoDaoH2:59] Se ha creado un registro para odontologo Odontologo{id=1, matricula='null', nombre='null', apellido='null'}
+[2024-03-1113:41:20] [ INFO ] [OdontologoDaoH2:27] Estamos guardando un odontologo
+[2024-03-1113:41:20] [ ERROR] [OdontologoDaoH2:47] Se produjo un error y no es posible cargar los datos No operations allowed after connection closed.
+[2024-03-1113:41:20] [ INFO ] [OdontologoDaoH2:53] Se cerro la conexion!
+[2024-03-1113:41:20] [ INFO ] [OdontologoDaoH2:59] Se ha creado un registro para odontologo Odontologo{id=null, matricula='B123', nombre='Pepe', apellido='Argento'}
+[2024-03-1113:42:02] [ INFO ] [OdontologoDaoH2:27] Estamos guardando un odontologo
+[2024-03-1113:42:03] [ INFO ] [databaseConnection:26] Se conecto a la base de datos
+[2024-03-1113:42:03] [ INFO ] [OdontologoDaoH2:53] Se cerro la conexion!
+[2024-03-1113:42:03] [ INFO ] [OdontologoDaoH2:59] Se ha creado un registro para odontologo Odontologo{id=2, matricula='B123', nombre='Pepe', apellido='Argento'}
+[2024-03-1113:42:28] [ INFO ] [OdontologoDaoH2:27] Estamos guardando un odontologo
+[2024-03-1113:42:28] [ ERROR] [OdontologoDaoH2:47] Se produjo un error y no es posible cargar los datos No operations allowed after connection closed.
+[2024-03-1113:42:28] [ INFO ] [OdontologoDaoH2:53] Se cerro la conexion!
+[2024-03-1113:42:28] [ INFO ] [OdontologoDaoH2:59] Se ha creado un registro para odontologo Odontologo{id=null, matricula='B123A1', nombre='Ana', apellido='Prada'}
+[2024-03-1113:49:44] [ INFO ] [OdontologoDaoH2:27] Estamos guardando un odontologo
+[2024-03-1113:49:44] [ ERROR] [OdontologoDaoH2:47] Se produjo un error y no es posible cargar los datos No operations allowed after connection closed.
+[2024-03-1113:49:44] [ INFO ] [OdontologoDaoH2:53] Se cerro la conexion!
+[2024-03-1113:49:44] [ INFO ] [OdontologoDaoH2:59] Se ha creado un registro para odontologo Odontologo{id=null, matricula='B123A1', nombre='Ana', apellido='Prada'}
+[2024-03-1113:50:16] [ INFO ] [OdontologoDaoH2:27] Estamos guardando un odontologo
+[2024-03-1113:50:17] [ INFO ] [databaseConnection:26] Se conecto a la base de datos
+[2024-03-1113:50:17] [ INFO ] [OdontologoDaoH2:53] Se cerro la conexion!
+[2024-03-1113:50:17] [ INFO ] [OdontologoDaoH2:59] Se ha creado un registro para odontologo Odontologo{id=3, matricula='B123A1', nombre='Ana', apellido='Prada'}
+[2024-03-1113:59:24] [ INFO ] [OdontologoDaoH2:27] Estamos guardando un odontologo
+[2024-03-1113:59:24] [ ERROR] [OdontologoDaoH2:47] Se produjo un error y no es posible cargar los datos No operations allowed after connection closed.
+[2024-03-1113:59:24] [ INFO ] [OdontologoDaoH2:53] Se cerro la conexion!
+[2024-03-1113:59:24] [ INFO ] [OdontologoDaoH2:59] Se ha creado un registro para odontologo Odontologo{id=null, matricula='B123A1', nombre='Ana', apellido='Prada'}
+[2024-03-1114:22:45] [ INFO ] [OdontologoDaoH2:66] Estamos consultando todos los odontologos
+[2024-03-1114:22:46] [ INFO ] [databaseConnection:26] Se conecto a la base de datos
+[2024-03-1114:22:46] [ INFO ] [OdontologoDaoH2:93] Se cerro la conexion!
+[2024-03-1114:22:46] [ INFO ] [OdontologoDaoH2:99] Se listan todos los odontologos[Odontologo{id=1, matricula='null', nombre='null', apellido='null'}, Odontologo{id=2, matricula='B123', nombre='Pepe', apellido='Argento'}, Odontologo{id=3, matricula='B123A1', nombre='Ana', apellido='Prada'}]
+[2024-03-1114:34:48] [ INFO ] [OdontologoDaoH2:106] Estamos buscando un odontologo por id
+[2024-03-1114:34:48] [ INFO ] [databaseConnection:26] Se conecto a la base de datos
+[2024-03-1114:34:56] [ INFO ] [OdontologoDaoH2:106] Estamos buscando un odontologo por id
+[2024-03-1114:35:22] [ INFO ] [OdontologoDaoH2:106] Estamos buscando un odontologo por id
+[2024-03-1114:35:23] [ INFO ] [databaseConnection:26] Se conecto a la base de datos
+[2024-03-1115:00:34] [ INFO ] [databaseConnection:26] Se conecto a la base de datos
+[2024-03-1115:22:11] [ INFO ] [databaseConnection:26] Se conecto a la base de datos
+[2024-03-1115:23:14] [ INFO ] [databaseConnection:26] Se conecto a la base de datos
+[2024-03-1115:31:21] [ INFO ] [databaseConnection:26] Se conecto a la base de datos
+[2024-03-1115:54:04] [ INFO ] [databaseConnection:26] Se conecto a la base de datos
+[2024-03-1116:02:16] [ INFO ] [databaseConnection:26] Se conecto a la base de datos
+[2024-03-1116:02:17] [ INFO ] [OdontologoDaoH2:150] Se elimino el odontologo 1

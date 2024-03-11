@@ -32,5 +32,10 @@ public class OdontologoService implements IOdontologoService {
         return iDao.buscarPorId(id);
     }
 
+    @Override
+    public void eliminar(Integer id) {
+        iDao.eliminar(id);
+    }
+
 
 }
