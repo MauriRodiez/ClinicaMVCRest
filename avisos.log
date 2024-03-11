@@ -1,0 +1,27 @@
+[2024-03-1020:00:23] [ INFO ] [OdontologoDaoH2:27] Estamos guardando un odontologo
+[2024-03-1020:00:23] [ INFO ] [databaseConnection:26] Se conecto a la base de datos
+[2024-03-1020:00:23] [ INFO ] [OdontologoDaoH2:50] Se cerro la conexion!
+[2024-03-1020:00:23] [ INFO ] [OdontologoDaoH2:56] Se ha creado un registro para odontologo Odontologo{id=1, matricula='null', nombre='null', apellido='null'}
+[2024-03-1020:01:44] [ INFO ] [OdontologoDaoH2:27] Estamos guardando un odontologo
+[2024-03-1020:01:44] [ ERROR] [OdontologoDaoH2:46] Se produjo un error y no es posible cargar los datos No operations allowed after connection closed.
+[2024-03-1020:01:44] [ INFO ] [OdontologoDaoH2:50] Se cerro la conexion!
+[2024-03-1020:01:44] [ INFO ] [OdontologoDaoH2:56] Se ha creado un registro para odontologo Odontologo{id=null, matricula='null', nombre='null', apellido='null'}
+[2024-03-1020:50:01] [ INFO ] [OdontologoDaoH2:27] Estamos guardando un odontologo
+[2024-03-1020:50:01] [ INFO ] [databaseConnection:26] Se conecto a la base de datos
+[2024-03-1020:50:01] [ ERROR] [OdontologoDaoH2:49] Se produjo un error y no es posible cargar los datos Column Index out of range, 2 > 1. 
+[2024-03-1020:50:01] [ INFO ] [OdontologoDaoH2:55] Se cerro la conexion!
+[2024-03-1020:50:01] [ INFO ] [OdontologoDaoH2:61] Se ha creado un registro para odontologo Odontologo{id=2, matricula='null', nombre='null', apellido='null'}
+[2024-03-1021:01:19] [ INFO ] [OdontologoDaoH2:27] Estamos guardando un odontologo
+[2024-03-1021:01:19] [ INFO ] [databaseConnection:26] Se conecto a la base de datos
+[2024-03-1021:01:19] [ ERROR] [OdontologoDaoH2:50] Se produjo un error y no es posible cargar los datos Column Index out of range, 2 > 1. 
+[2024-03-1021:01:19] [ INFO ] [OdontologoDaoH2:56] Se cerro la conexion!
+[2024-03-1021:01:19] [ INFO ] [OdontologoDaoH2:62] Se ha creado un registro para odontologo Odontologo{id=3, matricula='null', nombre='null', apellido='null'}
+[2024-03-1021:04:06] [ INFO ] [OdontologoDaoH2:27] Estamos guardando un odontologo
+[2024-03-1021:04:06] [ INFO ] [databaseConnection:26] Se conecto a la base de datos
+[2024-03-1021:04:06] [ ERROR] [OdontologoDaoH2:49] Se produjo un error y no es posible cargar los datos Column Index out of range, 2 > 1. 
+[2024-03-1021:04:06] [ INFO ] [OdontologoDaoH2:55] Se cerro la conexion!
+[2024-03-1021:04:06] [ INFO ] [OdontologoDaoH2:61] Se ha creado un registro para odontologo Odontologo{id=null, matricula='4', nombre='null', apellido='null'}
+[2024-03-1021:05:48] [ INFO ] [OdontologoDaoH2:27] Estamos guardando un odontologo
+[2024-03-1021:05:48] [ INFO ] [databaseConnection:26] Se conecto a la base de datos
+[2024-03-1021:05:48] [ INFO ] [OdontologoDaoH2:53] Se cerro la conexion!
+[2024-03-1021:05:48] [ INFO ] [OdontologoDaoH2:59] Se ha creado un registro para odontologo Odontologo{id=5, matricula='null', nombre='null', apellido='null'}
