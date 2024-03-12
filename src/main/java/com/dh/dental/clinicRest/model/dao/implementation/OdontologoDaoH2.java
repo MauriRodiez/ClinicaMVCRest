@@ -15,9 +15,8 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
     private static final Logger LOGGER =  Logger.getLogger(OdontologoDaoH2.class);
     private static final String SQL_INSERT_ODONTOLOGO = "INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?)";
     private static final String SQL_SELECT = "SELECT * FROM ODONTOLOGOS";
-
     private static final String SQL_SELECT_XID = "SELECT * FROM ODONTOLOGOS WHERE ID = ?";
-
+    private static final String SQL_DELETE = "DELETE FROM ODONTOLOGOS WHERE ID = ?";
 
     public OdontologoDaoH2(){
         //Database.createTable();
@@ -133,5 +132,31 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
         }
 
         return odontologo;
+    }
+
+    @Override
+    public void eliminar(Integer id) {
+
+        Connection connection = null;
+
+        try {
+            connection = databaseConnection.getDbConnect();
+
+
+            PreparedStatement psDelete = connection.prepareStatement(SQL_DELETE);
+            psDelete.setInt(1, id);
+            psDelete.executeUpdate();
+
+            LOGGER.info("Se elimino el odontologo " + id);
+
+        } catch (Exception e){
+            e.printStackTrace();
+        } finally {
+            try {
+                connection.close();
+            } catch (SQLException e) {
+                throw new RuntimeException(e);
+            }
+        }
     }
 }

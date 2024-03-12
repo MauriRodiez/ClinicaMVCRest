@@ -12,4 +12,6 @@ public interface IDao<T> {
     // Buscar por ID
     T buscarPorId(Integer id);
 
+    void eliminar(Integer id);
+
 }
