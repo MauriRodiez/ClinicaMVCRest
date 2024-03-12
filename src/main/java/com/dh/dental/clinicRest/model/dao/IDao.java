@@ -13,5 +13,6 @@ public interface IDao<T> {
     T buscarPorId(Integer id);
 
     void eliminar(Integer id);
+    T actualizar(T t);
 
 }

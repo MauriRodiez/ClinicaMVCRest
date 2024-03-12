@@ -17,6 +17,7 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
     private static final String SQL_SELECT = "SELECT * FROM ODONTOLOGOS";
     private static final String SQL_SELECT_XID = "SELECT * FROM ODONTOLOGOS WHERE ID = ?";
     private static final String SQL_DELETE = "DELETE FROM ODONTOLOGOS WHERE ID = ?";
+    private static final String SQL_UPDATE = "UPDATE ODONTOLOGOS SET MATRICULA = ?, NOMBRE = ?, APELLIDO = ? WHERE ID = ?";
 
     public OdontologoDaoH2(){
         //Database.createTable();
@@ -158,5 +159,44 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
                 throw new RuntimeException(e);
             }
         }
+    }
+
+    @Override
+    public Odontologo actualizar(Odontologo odontologo) {
+
+        Connection connection = null;
+
+        try {
+            connection = databaseConnection.getDbConnect();
+
+            connection.setAutoCommit(false);
+
+            PreparedStatement psUpdate = connection.prepareStatement(SQL_UPDATE);
+            psUpdate.setString(1, odontologo.getMatricula());
+            psUpdate.setString(2, odontologo.getNombre());
+            psUpdate.setString(3, odontologo.getApellido());
+            psUpdate.setLong(4, odontologo.getId());
+            psUpdate.executeUpdate();
+
+            connection.commit();
+            connection.setAutoCommit(true);
+
+
+        } catch (Exception e){
+            e.printStackTrace();
+            try {
+                connection.rollback();
+            } catch (SQLException ex) {
+                throw new RuntimeException(ex);
+            }
+        } finally {
+            try {
+                connection.close();
+            } catch (SQLException e){
+                e.printStackTrace();
+            }
+        }
+
+        return odontologo;
     }
 }

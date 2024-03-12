@@ -37,5 +37,10 @@ public class OdontologoService implements IOdontologoService {
         iDao.eliminar(id);
     }
 
+    @Override
+    public Odontologo actualizar(Odontologo odontologo) {
+        return iDao.actualizar(odontologo);
+    }
+
 
 }

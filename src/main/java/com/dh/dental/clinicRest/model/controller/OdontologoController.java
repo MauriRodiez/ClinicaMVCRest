@@ -4,6 +4,7 @@ package com.dh.dental.clinicRest.model.controller;
 import com.dh.dental.clinicRest.model.Odontologo;
 import com.dh.dental.clinicRest.model.service.IOdontologoService;
 import com.dh.dental.clinicRest.model.service.implementation.OdontologoService;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -33,5 +34,10 @@ public class OdontologoController {
     @DeleteMapping("/{id}")
     public void eliminar(@PathVariable Integer id){
         odontologoService.eliminar(id);
+    }
+
+    @PutMapping("/update")
+    public Odontologo actualizar(@RequestBody Odontologo odontologo){
+        return odontologoService.actualizar(odontologo);
     }
 }
