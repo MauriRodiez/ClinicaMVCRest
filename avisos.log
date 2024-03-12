@@ -25,3 +25,7 @@
 [2024-03-1021:05:48] [ INFO ] [databaseConnection:26] Se conecto a la base de datos
 [2024-03-1021:05:48] [ INFO ] [OdontologoDaoH2:53] Se cerro la conexion!
 [2024-03-1021:05:48] [ INFO ] [OdontologoDaoH2:59] Se ha creado un registro para odontologo Odontologo{id=5, matricula='null', nombre='null', apellido='null'}
+[2024-03-1021:42:14] [ INFO ] [OdontologoDaoH2:27] Estamos guardando un odontologo
+[2024-03-1021:42:14] [ INFO ] [databaseConnection:26] Se conecto a la base de datos
+[2024-03-1021:42:14] [ INFO ] [OdontologoDaoH2:53] Se cerro la conexion!
+[2024-03-1021:42:14] [ INFO ] [OdontologoDaoH2:59] Se ha creado un registro para odontologo Odontologo{id=6, matricula='B123', nombre='Pepe', apellido='Argento'}
